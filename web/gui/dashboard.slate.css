@@ -5,7 +5,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-variant: normal;
-    color: #878b90;
+    color: #d4d4d4;
 }
 
 /* fixes for default slate theme */
@@ -17,8 +17,8 @@ code {
 .dashboard-sidebar .nav > .active > a,
 .dashboard-sidebar .nav > .active:hover > a,
 .dashboard-sidebar .nav > .active:focus > a {
-    color: #765d9c;
-    border-left: 2px solid #765d9c;
+    color: #b14b4b;
+    border-left: 2px solid #b44b4b;
 }
 
 .morelink {
