@@ -666,3 +666,50 @@ body.modal-open {
 #hostname {
   font-size: 18px;
 }
+
+.sign-in-btn {
+  background-color: #1e2126;
+}
+
+.sign-in-btn.theme-white {
+  background-color: #e6e6e6;
+}
+
+.sign-in-btn.theme-white span {
+  color: #000;
+}
+
+#sign-in-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  /* margin: 5px 0; */
+  background-color: #1e2126;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+}
+
+#sign-in-banner.theme-white {
+  background-color: #e6e6e6;
+}
+
+#sign-in-banner .__link {
+  color: #17ce8a;
+}
+
+#sign-in-banner .__link:hover {
+  text-decoration: underline;
+}
+
+#sign-in-banner .__close {
+  cursor: pointer;
+  float: right;
+}
+
+#sign-in-banner .__close .fa-times {
+  margin-left: 5px;
+  color: #17ce8a;
+}
