@@ -9,8 +9,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <link rel="stylesheet" type="text/css" href="main.css?v=4">
-    <script src="main.js?v=4"></script>
+    <link rel="stylesheet" type="text/css" href="main.css?v=5">
+    <script src="main.js?v=7"></script>
 </head>
 
 <body data-spy="scroll" data-target="#sidebar" data-offset="100">
@@ -35,8 +35,8 @@
             theme = localStorage.getItem('netdataTheme') || 'slate';
         }
         const overlayEl = document.getElementById('loadOverlay');
-        overlayEl.innerHTML = 'SkyScraper<br/><div style="font-size: 3vh;">Being the first to know is always an advantage.</div>';
-        overlayEl.style = theme == 'slate' ? "background-color: #263238; color: rgb(199, 199, 199);" : "background-color: #fff; color: #ddd;";
+        overlayEl.innerHTML = 'netdata<br/><div style="font-size: 3vh;">Real-time performance monitoring, done right!</div>';
+        overlayEl.style = theme == 'slate' ? "background-color: #272b30; color: #373b40;" : "background-color: #fff; color: #ddd;";
     </script>
     <nav class="navbar navbar-default" role="banner">
         <div class="container">
@@ -120,6 +120,17 @@
     </nav>
     <div class="navbar-highlight">
         <div id="navbar-highlight-content" class="navbar-highlight-content"></div>
+    </div>
+
+    <div id="sign-in-banner" style="display: none">
+        <div class="container">
+            Like what you see?
+            <strong><a href="#" class="__link" onclick="signInDidClick(event); return false">Sign in</a>
+            to experience the full-range of netdata capabilities!</strong>
+            <div class="__close" onclick="closeSignInBannerDidClick(event)">
+                Close <i class="fas fa-times"></i>
+            </div>
+        </div>
     </div>
 
     <div id="masthead" style="display: none;">
