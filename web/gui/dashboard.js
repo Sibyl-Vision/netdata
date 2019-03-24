@@ -9698,7 +9698,7 @@ NETDATA.registry = {
     machines: null,       // the user's other URLs
     machines_array: null, // the user's other URLs in an array
     person_urls: null,
-
+    anonymous_statistics_checked: false,
     MASKED_DATA: "***",
 
     isUsingGlobalRegistry: function() {
@@ -9771,7 +9771,6 @@ NETDATA.registry = {
                 }
                 NETDATA.registry.machine_guid = data.machine_guid;
                 NETDATA.registry.hostname = data.hostname;
-
                 NETDATA.registry.access(2, function (person_urls) {
                     NETDATA.registry.parsePersonUrls(person_urls);
                 });
