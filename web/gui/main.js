@@ -3549,8 +3549,6 @@ function notifyForUpdate(force) {
           compare +
           '" target="_blank">Click here for the changes log</a> and<br/><a href="https://github.com/netdata/netdata/tree/master/packaging/installer/UPDATE.md" target="_blank">click here for directions on updating</a> your netdata installation.</p><p>We suggest to review the changes log for new features you may be interested, or important bug fixes you may need.<br/>Keeping your netdata updated is generally a good idea.</p>'
       );
-
-      document.getElementById("update_badge").innerHTML = "!";
     }
 
     if (save) {
