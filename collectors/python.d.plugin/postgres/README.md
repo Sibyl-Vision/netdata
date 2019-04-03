@@ -61,6 +61,8 @@ Following charts are drawn:
 
 For all available options please see module [configuration file](postgres.conf).
 
+For all available options please see module [configuration file](postgres.conf).
+
 ```yaml
 socket:
   name         : 'socket'
