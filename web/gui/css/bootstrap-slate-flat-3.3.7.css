@@ -1096,7 +1096,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #c8c8c8;
-  background-color: #1a262b;
+  background-color: #15181f;
 }
 input,
 button,
@@ -4603,7 +4603,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #434b54;
+  background-color: #585e6b;
   border-color: #2b2e32;
   border-radius: 0 !important;
 }
